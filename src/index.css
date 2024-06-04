@@ -1,0 +1,128 @@
+@media only screen and (max-width: 600px) {
+  .picture_1 {
+   margin-top: 335px;
+    padding-top: 70px !important;
+    width: 330px !important;
+   
+  }
+  .header1 {
+    margin-top: 80px !important;
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  .header-paragraph {
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+  .button-header {
+    margin-left: 70px !important;
+  }
+  .form_register{
+    margin: 65px 0px 0px 0px !important;
+  }
+  .secondSection{
+    margin-top: 370px !important;
+  }
+  .picture_2{
+    width: 200px !important;
+    margin-right: 20px !important;
+  }
+  .computer_screen{
+    width: 335px !important;
+    height: 150px !important;
+    
+  }
+  .testimonials {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .youtube{
+    width: 80px !important;
+    height: 80px !important;
+    margin-left: 130px !important;
+  }
+  .featured {
+    padding: 15px 0px 40px 0px !important;
+    width: 300px !important;
+    margin-bottom: 100px !important;
+  }
+  .content_3 {
+    margin-top: 10px !important;
+  }
+  .footer-logo{
+    margin-left: 50px !important;
+  }
+  .text-mark{
+    text-align: center !important;
+  }
+  .header-chat{
+    text-align: center !important;
+  }
+  .qrcode{
+    margin-left: 95px !important;
+  }
+  .text-get{
+    text-align: center !important;
+  }
+  .para{
+    text-align: center !important;
+  }
+  .card_student{
+    width: 100% !important;
+  }
+  .card-teacher{
+    width: 100% !important;
+  }
+  .lessonimage{
+    width: 100% !important;
+  }
+  .footer{
+    margin-top: 44px !important
+  }
+  .joe {
+    padding: 30px 30px 30px 40px !important;
+    margin-left: 10px !important
+  }
+  .thefounder{
+    text-align: center !important;
+    margin-left: 15px !important;
+  }
+  .ourcourses{
+    text-align: center !important;
+    margin-left: 3px !important;
+  }
+  .ourteam {
+    text-align: center !important;
+    margin-left: 10px !important;
+  }
+  .input-email{
+    width:'100% !important'
+  }
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.navbar{
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+#herosection{
+  font-family: 'Fredoka One', cursive;
+}
+.choose{
+  font-family: 'Fredoka One', cursive;
+}
+#announce{
+  font-family: 'Fredoka One', cursive;
+}
+.page-link{
+    color: #fff !important;
+    background-color: #5a5ae9 !important;
+    border-color: #ffffff !important;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: rgb(2, 58, 122) !important;
+  border-color: #f3969a !important;
+  
+}
