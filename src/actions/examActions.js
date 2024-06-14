@@ -55,7 +55,8 @@ export const examlist = (keyword, pageNumber) => async (dispatch, getState) => {
 
 //teacher list
 export const teacherexamlist =
-  (keyword, pageNumber, teacherEmail) => async (dispatch, getState) => {
+  (keyword, pageNumber, teacherEmail, pageSize) =>
+  async (dispatch, getState) => {
     try {
       dispatch({
         type: PUBLIC_EXAM_LIST_REQUEST,
@@ -70,7 +71,7 @@ export const teacherexamlist =
         },
       };
       const { data } = await axios.get(
-        `${process.env.REACT_APP_BACKEND_URI}/api/exam/public/teacher?keyword=${keyword}&pageNumber=${pageNumber}&teacherEmail=${teacherEmail}`,
+        `${process.env.REACT_APP_BACKEND_URI}/api/exam/public/teacher?keyword=${keyword}&pageNumber=${pageNumber}&teacherEmail=${teacherEmail}&pageSize=${pageSize}`,
         config
       );
       dispatch({
