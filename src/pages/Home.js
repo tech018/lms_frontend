@@ -139,7 +139,7 @@ const Home = ({ history }) => {
                   style={{ marginTop: "130px" }}
                 >
                   <i className="fas fa-braille"></i> Welcome to Learn and Share
-                  Online English Education
+                  Online English Education Website
                 </h1>
                 <p className="header-paragraph" style={{ fontSize: "20px" }}>
                   Try our free trial class and test your speaking level now
